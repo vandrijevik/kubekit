@@ -11,10 +11,6 @@ jobs:
   build-and-push:
     runs-on: ubuntu-latest
     steps:
-    - name: Set variables
-      id: vars
-      run: echo "::set-output name=repository::vandrijevik/kubekit"
-
     - uses: actions/checkout@v1
 
     - name: Build and push Docker image
