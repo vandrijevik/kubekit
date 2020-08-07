@@ -24,5 +24,4 @@ jobs:
         repository: vandrijevik/kubekit
         tag_with_ref: true
         tag_with_sha: true
-        tags: latest
         username: ${{ secrets.DOCKER_USERNAME }}
