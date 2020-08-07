@@ -5,6 +5,7 @@ RUN apk update
 RUN apk add \
   bash \
   curl \
-  mtr
+  mtr \
+  openssl
 
 ENTRYPOINT ["/bin/bash"]
