@@ -8,4 +8,4 @@ RUN apk add \
   mtr \
   openssl
 
-ENTRYPOINT ["/bin/bash"]
+CMD ["/bin/bash"]
