@@ -7,7 +7,10 @@ RUN apk upgrade
 RUN apk add \
   bash \
   curl \
+  fish \
+  moreutils \
   mtr \
-  openssl
+  openssl \
+  postgresql-client
 
-CMD ["/bin/bash"]
+CMD ["/usr/bin/fish"]
