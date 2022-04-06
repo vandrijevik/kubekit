@@ -12,6 +12,7 @@ RUN apk add \
   mysql-client \
   mtr \
   openssl \
-  postgresql-client
+  postgresql-client \
+  redis
 
 CMD ["/usr/bin/fish"]
