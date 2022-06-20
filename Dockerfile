@@ -13,6 +13,7 @@ RUN apk add \
   mtr \
   openssl \
   postgresql-client \
-  redis
+  redis \
+  tmux
 
 CMD ["/usr/bin/fish"]
