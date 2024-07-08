@@ -9,7 +9,7 @@ RUN apk add \
   curl \
   fish \
   moreutils \
-  mysql-client \
+  mariadb-client \
   mtr \
   openssl \
   postgresql-client \
